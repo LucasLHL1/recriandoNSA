@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 11px Verdana, Arial, sans-serif;
+}
+
+.codigoEtec {
+    width: 30px;
+    /* margin-right: 80px;*/
+    margin-top: 10px;
+}
+
+.rmUsuario {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.senhaUsuario {
+    margin-right: 70px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+
+.bordaForm {
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 500px;
+    background-color: rgb(240, 238, 238);
+    margin-top: 10px;
+
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+}
+
+#enviar {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+p {
+    margin-bottom: -10px;
+    margin-left: -125px;
+}
+
+.borda2 {
+    border: 2px gray solid;
+    margin-top: 180px;
+    border-radius: 50px;
+    width: 600px;
+    height: 300px;
+
+}
+
+.direitosAutorais {
+    margin-top: 140px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.interrogacaoIco {
+    height: 15px;
+    width: 15px;
+    margin-bottom: -2px;
+}
+
+.bombaIco {
+    height: 80px;
+    width: 80px;
+}
+
+.bombaIcoGrande {
+    border-radius: 50px;
+    height: 280px;
+    width: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(223, 221, 221);
+    margin-top: 70px;
+
+
+}
+
+h2 {
+    margin-top: -20px;
+}
+
+.etecImagem {
+    width: 50px;
+    height: 50px;
+}
+
+.cps {
+    margin-top: 15px;
+    margin-left: -50px;
+}
+
+.menu {
+    height: 20px;
+    width: 90%;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+.botaoSair {
+    background-color: rgba(255, 0, 0, 0.705);
+}
+
+.botaoSair:hover {
+    background-color: rgb(250, 16, 16) !important;
+}
+
+.listaMenu {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(gray, #1c1d1c);
+    border-radius: 10px;
+
+}
+
+
+.listaMenu>li {
+    /* float: left;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+
+}
+
+.listaMenu>li:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+}
+
+.identificacaoAluno {
+    height: 505px;
+    width: 210px;
+    margin-left: 70px;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    /*padding: 35px;*/
+}
+
+.fotoIdentificacao {
+    max-width: 110px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.identificacaoAlunoo {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.alterarFoto {
+    width: 112px;
+    height: 20px;
+    font-size: 11px;
+    border-top: 2px gray solid;
+    background-color: black;
+    color: white;
+}
+
+.fotodeIdentificacao {
+    list-style: none;
+}
+
+.fotoIdentificacao>li {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.curso {
+    width: 195px;
+    font-size: 11px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.conteudoSite {
+    width: 92%;
+    display: flex;
+    text-decoration: none;
+}
+
+.projetoOffice365 {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    height: 700px;
+    margin-top: 18px;
+    border-radius: 10px;
+    margin-left: 2px;
+    padding-top: 15px;
+}
+
+.textoProjetoOffice365 {
+    color: white;
+    background-color: red;
+    text-align: center;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.emailInformado {
+    color: blue;
+}
+
+.emailInformado {
+    color: black;
+    margin-left: 8px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.projetoOfficeFuncionando {
+    border: 2px solid red;
+    height: 120px;
+    width: 450px;
+    margin-left: 8px;
+
+
+}
+
+.testeAlinhamento {
+    display: flex;
+    justify-content: center;
+}
+
+.btnTrocaSenha {
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px black solid;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+}
+
+.termosDeUso {
+    margin-left: 45px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.coloreFundo {
+    width: 95%;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+.coloreFundoTeste {
+    display: flex;
+    justify-content: center;
+}
+
+.divMensagens {
+    /*   border: 1px solid purple;*/
+    width: 100%;
+    margin-top: 15px;
+}
+
+.alinhaMensagens {
+    /*border: 1px solid black;*/
+    width: 450px;
+    justify-content: center;
+
+}
+
+.caixaDeMensagens {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.envelopeIco {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.alinhadorMensagens {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.caixaDeMensagens {
+    margin-right: 5px;
+    border-collapse: collapse;
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    border: black;
+    cursor: default;
+}
+
+.estilizacaoTr {
+    background-color: rgb(196, 193, 193);
+}
+
+
+td {
+    padding: 3px;
+    text-align: left;
+}
+
+.nomeProfessor {
+    padding-right: 60px;
+}
+
+tr:hover {
+    background-color: rgb(212, 212, 247);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.footer:hover {
+    transition-delay: 0.1s;
+    transition-duration: 2s;
+    background-color: rgb(211, 46, 46);
+}
+
+.alinhaFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+.alinhaNoticias {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+}
+
+.blocoSeparacao {
+    width: 100%;
+}
+
+.tabelaNoticias {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.sugestoes {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.dropdown:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+
+}
+
+.dropdown-content {
+    margin-top: 117px;
+    margin-left: 106px;
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(gray, #1c1d1c);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.listaMenuLi>a {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.listaMenuLia>a {
+    list-style: none;
+    color: white;
+}
+
+.conteudoDownloads {
+    border: 1px solid black;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;*/
+    height: 725px;
+    margin-top: 18px;
+    border-radius: 10px;
+    margin-left: 2px;
+    padding-top: 35px;
+}
+
+.arrumaSpan {
+    display: flex;
+    justify-content: center;
+
+}
+
+.regimentoComum {
+    margin-left: 15px;
+}
+
+.homeImagem {
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.espacamentoTabela {
+    margin-left: 15px;
+    text-align: left;
+
+
+}
+
+.tabelaArquivos {
+    border-collapse: collapse;
+    width: 98%;
+
+}
+
+.paddingTabela {
+    padding-right: 120px;
+}
+
+.espacamentoTituloTabela {
+    padding: 1px;
+    text-align: center;
+}
+
+.testeDownloadsCor {
+    font-weight: bold;
+}
+
+.testee {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
